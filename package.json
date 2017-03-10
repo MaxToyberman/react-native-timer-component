@@ -1,0 +1,20 @@
+{
+  "name": "react-native-timer-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Max Toyberman",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.29.0"
+  },
+  "dependencies": {
+    "react-timer-mixin": "^0.13.3"
+  }
+}
