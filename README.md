@@ -13,7 +13,11 @@ displayMessage () {
   console.log('Timer expired')
 }
 
-<Timer ms={5000} expired={() => {this.displayMessage}} />
+render () {
+  return (
+    <Timer ms={5000} expired={() => {this.displayMessage}} />
+  );
+}
 ```
 ## Props
 
