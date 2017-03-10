@@ -45,8 +45,16 @@
 
 ## Usage
 ```javascript
-import RNTimer from 'react-native-timer-component';
+import Timer from 'react-native-timer-component';
 
-// TODO: What do with the module?
-RNTimer;
+displayMessage () {
+  console.log('Timer expired')
+}
+
+<Timer ms={5000} expired={() => {this.displayMessage}} />
 ```
+## Props
+
+* **ms** *integer* (required) - time in milliSeconds
+
+* **expired** *function* - function to be executed when timer expired
